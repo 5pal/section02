@@ -5,7 +5,6 @@ import style from "./book-item.module.css";
 export default function BookItem({
   id,
   author,
-  description,
   publisher,
   title,
   subTitle,

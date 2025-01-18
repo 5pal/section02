@@ -15,6 +15,5 @@ export default function Page({
   book,
 }: InferGetServerSidePropsType<typeof getServerSideProps>) {
   if (!book) return "Something went wrong";
-  const { title, author, description, subTitle, coverImgUrl, id, publisher } =
-    book;
+  const {} = book;
 }
